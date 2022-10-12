@@ -2,7 +2,7 @@
 
 Este projeto é uma extensão gráfica para Windows de PBKSEARCH https://github.com/carlosamcruz/pbksearch 
 
-(Esta extensão gráfia não foi testado em Linux)
+(Esta extensão gráfica não foi testado em Linux)
 
 E é utilizado para executar buscas por colisões na curva elíptica secp256k1
 
