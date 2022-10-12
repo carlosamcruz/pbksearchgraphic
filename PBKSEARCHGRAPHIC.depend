@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1665585135 source:c:\criptoprj\btc\cblock\pbksearchgraphic\main.cpp
+	<iostream>
+	"lib/secp256k1Class3.h"
+	"lib/hexchar.h"
+	<fstream>
+	<string>
+	<vector>
+	<graphics.h>
+
+1664825650 c:\criptoprj\btc\cblock\pbksearchgraphic\lib\secp256k1class3.h
+	<boost/multiprecision/cpp_int.hpp>
+
+1529610780 c:\criptoprj\btc\cblock\pbksearchgraphic\lib\hexchar.h
+
