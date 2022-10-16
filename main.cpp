@@ -221,9 +221,9 @@ class pbkColl
 			}while(buffer[j] != '"');
 			j++;
 
-			std::cout << "Loading " << (slices/2) + 1 << " Keys group " << iFKey + 1 << " of 20 ... WAIT!!!" << std::endl;
+			std::cout << "Loading " << (slices/2) + 1 + 1 << " Keys group " << iFKey + 1 << " of 20 ... WAIT!!!" << std::endl;
 
-			for(int i = 0; i <= slices/2; i++)
+			for(int i = 0; i <= (slices/2) + 1; i++)
 			//for(int i = 0; i <= 20; i++)
 			{
 				std::string pxString;
@@ -399,8 +399,8 @@ class pbkColl
 		cpp_int numberOfTestsOffSet = 0;
 		//Numero de testes realizados a cada rodada = (numero de PVTKEYS)*(Numero de Arquivos)*(PBK em cada arquivo)*(Dois sentidos de busca)
 		//numberOfTests1 = (cpp_int)(12*20*32769*2);
-		numberOfTests1 = (cpp_int)(numberOfKeys*nOfBPBKFiles*slices*2);
-		numberOfTestsOffSet = ((cpp_int)(numberOfKeys*nOfBPBKFiles*slices*2)) * keyOffSet;
+		numberOfTests1 = (cpp_int)(numberOfKeys*nOfBPBKFiles*(1 + (slices/2) +1)*2);
+		numberOfTestsOffSet = ((cpp_int)(numberOfKeys*nOfBPBKFiles*(1 + (slices/2) +1)*2)) * keyOffSet;
 
         const int npgraph = 14;
         //const int npgraph = 30;
